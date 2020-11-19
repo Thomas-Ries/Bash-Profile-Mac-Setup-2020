@@ -11,20 +11,20 @@
 - brew install cowsay
 - brew install fortune
 
-Passer sur autre shell :
+# Passer sur un autre shell
 
 1. which shell : renvoie : /usr/local/bin/bash 
 2. sudo nano /etc/shells
 
-Dans nano :
+# Dans nano
 
 1. taper en haut de la liste des shell autorisées : /usr/local/bin/bash 
 
-Dans le terminal :
+# Dans le terminal
 
 1. chsh -s /usr/local/bin/bash → (change le bash par défaut)
 
-Voir sur quel shell on tourne :
+# Voir sur quel shell je tourne
 
 echo $SHELL
 
